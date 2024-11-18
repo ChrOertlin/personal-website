@@ -1,12 +1,14 @@
 import './App.css'
-import Header from './components/Header/header'
-import Footer from './components/Footer/footer'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
+
 function App() {
   return (
-         
-    <div id="root">
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <h1>Just a Random text for now</h1>
+      <main className="flex-grow">
+        <h1>Just a Random text for now</h1>
+      </main>
       <Footer />
     </div>
   );
