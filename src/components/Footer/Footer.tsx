@@ -5,7 +5,7 @@ import footer from './footer.css';
 
 function Footer() {
   return (
-    <footer className="bg-zinc-700 flex items-center justify-center py-4">
+    <footer className="bg-black flex items-center justify-center py-4 relative z-10">
     <div className="container mx-auto text-center">
       <p className="text-white">Christian Oertlin</p>
       <div className="flex justify-center space-x-4 mt-2">

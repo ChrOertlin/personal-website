@@ -2,7 +2,7 @@ import './header.css';
 
 function Header() {
   return (
-    <header>
+    <header className='bg-black'>
       <h1>Header Component</h1>
     </header>
   );
