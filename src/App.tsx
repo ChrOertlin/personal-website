@@ -1,13 +1,23 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import WelcomeMain from './components/WelcomeMain/WelcomeMain';
+import { Routes, Route } from 'react-router-dom';
+import Landing from './pages/Home';
+import Work from './pages/Work';
+import About from './pages/About';
+import Resume from './pages/Resume';
+
 
 function App() {
   return (
     <div className="relative flex flex-col min-h-screen">
       <Header />
-      <WelcomeMain />
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
       <Footer />
     </div>
   );
