@@ -1,11 +1,11 @@
 import Works from "../WorkItem/WorkItem"
 
-function Grid() {
+const Grid: React.FC = () => {
     return (
-        <div className="flex flex-col items-center justify-center h-screen">
+      <div className="flex flex-col items-center justify-center h-screen overflow-hidden">
         <Works />
       </div>
-    )
-}
-
-export default Grid
+    );
+  };
+  
+  export default Grid;
