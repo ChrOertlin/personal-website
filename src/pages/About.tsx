@@ -21,7 +21,7 @@ function About() {
         My goal is to continue advancing within software development while expanding my expertise in CI/CD practices and system architecture design. I am particularly interested in developing efficient, scalable, and robust systems, for cloud-based or on premise solutions. Above all, I am committed to lifelong learning and continuously improving my skills to deliver meaningful and impactful work.
         </p>
         <p className={paragraphStyle}>
-        On the personal side of things, I am a huge fan of the outdoors. Most of my time is spend climbing some rock or, if I have a long-term project, one particular piece of rock. When I am not climbing, I am a professionally amateur photographer. It is nice to put things into perspective sometimes and capture moments. 
+        On the personal side of things, I am a huge fan of the outdoors. Most of my time is spend climbing some rock or, if I have a long-term project, one particular piece of rock. When I am not climbing, I am a professionally amateur photographer. It is nice to put things into perspective sometimes and capture moments. I also laugh at my own jokes, perhaps a bit too much.
         </p>
       </div>
     </div>
