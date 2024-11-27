@@ -10,7 +10,7 @@ interface ImageSourceProp {
         <img
           src={ImageSource}
           alt={alt}
-          className="w-full h-full object-cover"
+          className={className}
         />
       </div>
     );
