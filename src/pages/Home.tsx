@@ -10,7 +10,7 @@ function Home() {
         </div>
       </div>
       <div className="w-2/3 h-full">
-        <ImageComponent ImageSource={welcome_main_image} alt="Image" className="w-full h-full object-cover" />
+        <ImageComponent ImageSource={welcome_main_image} alt="image" className="w-full h-full object-cover" />
       </div>
     </div>
   );

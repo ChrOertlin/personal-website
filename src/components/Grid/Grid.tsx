@@ -1,6 +1,6 @@
 import React from 'react'
 import ImageComponent from '../Image/Image'
-import portrait from '../../assets/portrait.jpg'
+
 function Grid() {
   return (
     <div className="grid grid-cols-2 gap-4 h-screen">
