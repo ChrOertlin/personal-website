@@ -66,7 +66,7 @@ function ResumeRight() {
                             </div>
                             <p className="text-gray-500">
                                 During my PhD I developed the anota2seq package for the Bioconductor project.
-                                The package is used to analyse translational efficiency and differential translation from ribosome profiling data.
+                                The package is used to analyse translational efficiency and differential translation from polysome profiling and ribosome profiling data.
                                 Furthermore I analysed polysome and ribosome profiling data in various biological 
                                 contexts ranging from cancer to immune cells.
                             </p>
@@ -88,7 +88,7 @@ function ResumeRight() {
 
                         <div className="flex flex-col gap-5">
                             <div className="flex flex-col gap-2">
-                                <h2 className="text-xl font-bold">Doctor Of Philosophy, Biomedical Sciences</h2>
+                                <h2 className="text-xl font-bold">Doctor Of Philosophy, Medical Sciences</h2>
                                 <p className="text-gray-500">Karolinska Institutet, Stockholm, Sweden</p>
                                 <p className="text-gray-500">2021</p>
                             </div>
