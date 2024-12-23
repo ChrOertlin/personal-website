@@ -1,7 +1,7 @@
 # Description: Dockerfile for the nodejs application
 
 # GET the latest nodejs base image
-FROM node:23-alpine
+FROM node:20-alpine
 
 # SET the working directory in the container
 WORKDIR /app
