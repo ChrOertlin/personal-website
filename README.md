@@ -11,13 +11,13 @@ The website and the infrastructure I want to host this website on is still under
 
 1. Clone this repository 
 
-2. Navigate inside the closed folders
+2. Navigate inside the cloned folder
 
 3.
     a. 
-    1. run ```npm install```
-    2. run ```npm run dev```
+    1. run - npm install
+    2. run - npm run dev
 
     b.
-    1. docker build -t CO-website .    
-    2. docker run -p 3000:3000 CO-website:latest
+    1. run - docker build -t CO-website .    
+    2. run - docker run -p 3000:3000 CO-website:latest
