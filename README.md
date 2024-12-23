@@ -19,5 +19,5 @@ The website and the infrastructure I want to host this website on is still under
     2. run - npm run dev
 
     b.
-    1. run - docker build -t CO-website .    
-    2. run - docker run -p 3000:3000 CO-website:latest
+    1. run - docker build -t co-website .    
+    2. run - docker run -p 3000:3000 co-website:latest
