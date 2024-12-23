@@ -1,8 +1,3 @@
-import footer from './footer.css';
-
-
-
-
 function Footer() {
   return (
     <footer className="bg-black flex items-center justify-center py-4 relative z-10">

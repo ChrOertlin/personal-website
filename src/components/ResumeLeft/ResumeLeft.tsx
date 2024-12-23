@@ -1,8 +1,7 @@
 import ImageComponent from '../../components/Image/Image'
 import portrait from '../../assets/portrait.jpg'
-import { BiCurrentLocation, BiEnvelope, BiFlag, BiLogoDocker, BiLogoGithub, BiLogoLinkedin, BiLogoPostgresql, BiLogoPython, BiLogoReact, BiPhone } from 'react-icons/bi'
+import { BiCurrentLocation, BiEnvelope, BiLogoDocker, BiLogoGithub, BiLogoLinkedin, BiLogoPython, BiLogoReact, BiPhone } from 'react-icons/bi'
 import { GiComputing, GiGameConsole, GiMountainClimbing, GiPhotoCamera } from 'react-icons/gi'
-import { RiEnglishInput } from 'react-icons/ri'
 
 function ResumeLeft() {
     return (

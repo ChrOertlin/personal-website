@@ -1,5 +1,3 @@
-import React from 'react'
-
 function ResumeRight() {
     return (
         <div className="min-h-screen flex-[3]">
