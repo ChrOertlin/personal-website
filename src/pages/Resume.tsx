@@ -1,4 +1,3 @@
-import React from 'react'
 import ResumeLeft from '../components/ResumeLeft/ResumeLeft'
 import ResumeRight from '../components/ResumeRight/ResumeRight'
 

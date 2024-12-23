@@ -1,4 +1,3 @@
-import React from 'react'
 import Grid from '../components/WorkItemGrid/WorkItemGrid'
 
 function Work() {
