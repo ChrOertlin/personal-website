@@ -27,4 +27,4 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           release-type: node
           package-name: personal-website
-          tag-prefix: v
+          include-v-in-tag: true
