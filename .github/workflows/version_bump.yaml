@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   release:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.03
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -22,7 +22,7 @@ jobs:
           node-version: '20'
 
       - name: Create Release
-        uses: google-github-actions/release-please-action@v4
+        uses: googleapis/release-please-action@v3
         with:
           token: ${{ secrets.GH_TOKEN }}
           release-type: node
