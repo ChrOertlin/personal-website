@@ -1,6 +1,6 @@
 function ResumeRight() {
     return (
-        <div className="min-h-screen sm:grid-cols-3">
+        <div className="min-h-screen sm:col-span-3">
             <main className='flex max-w-[1000px] flex-col gap-10 p-5 md:mx-10 md:py-14' >
 
                 <div className="space-y-5">
