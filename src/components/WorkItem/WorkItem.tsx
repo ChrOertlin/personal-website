@@ -52,9 +52,9 @@ const workItems: WorkItemProps[] = [
 const Works: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen overflow-x-scroll w-1/2">
-      <h2 className="font-serif font-bold text-red-600 mb-4">
-        Here is what I have worked on or what I am working on
-      </h2>
+      <h1 className="sm:text-4xl text-xl font-serif font-bold text-red-600 mb-4">
+        Here are some of my works
+      </h1>
       <div className="w-full h-full overflow-y-auto">
         <div className="flex space-x-4 p-4 flex-nowrap">
           {workItems.map((item, index) => (

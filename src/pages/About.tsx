@@ -5,7 +5,7 @@ const paragraphStyle = "text-black font-serif p-4"
 
 function About() {
   return (
-    <div className="min-h-screen grid grid-cols-1 sm:grid-cols-2 gap-4 h-screen">
+    <div className="min-h-screen grid grid-cols-1 sm:grid-cols-2 gap-4 bg-white">
     <div className="flex flex-col justify-center items-center space-y-4">
       <div className="text-center">
         <h2 className="font-serif font-bold text-red-600 text-4xl">Who is this guy?</h2>
