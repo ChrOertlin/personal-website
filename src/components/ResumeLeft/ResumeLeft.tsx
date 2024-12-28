@@ -1,6 +1,6 @@
 import ImageComponent from '../../components/Image/Image'
 import portrait from '../../assets/portrait.jpg'
-import { BiCurrentLocation, BiEnvelope, BiLogoDocker, BiLogoGithub, BiLogoLinkedin, BiLogoPython, BiLogoReact, BiPhone } from 'react-icons/bi'
+import { BiCurrentLocation, BiData, BiEnvelope, BiLogoDocker, BiLogoGithub, BiLogoLinkedin, BiLogoPython, BiLogoReact, BiPhone } from 'react-icons/bi'
 import { GiComputing, GiGameConsole, GiMountainClimbing, GiPhotoCamera } from 'react-icons/gi'
 
 function ResumeLeft() {
@@ -53,6 +53,7 @@ function ResumeLeft() {
                             <span>Python</span>
                         </li>
                         <li className="flex items-center gap-2">
+                            <BiData className="text-xl"/>
                             <span>SQL</span>
                         </li>
                         <li className="flex items-center gap-2">
