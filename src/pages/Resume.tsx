@@ -4,7 +4,7 @@ import ResumeRight from '../components/ResumeRight/ResumeRight'
 function Resume() {
 
   return (
-    <div className="min-h-screen flex flew-col sm:flex-row bg-white mt-5">
+    <div className="min-h-screen grid grid-cols-1 sm:grid-cols-4 bg-white mt-18">
       <ResumeLeft />
       <ResumeRight />
     </div>

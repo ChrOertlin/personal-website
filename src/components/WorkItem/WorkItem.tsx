@@ -47,11 +47,6 @@ const workItems: WorkItemProps[] = [
     description:
       "I built a Raspberry Pi cluster to learn more about Kubernetes and container orchestration. The cluster consists of 2 Raspberry Pi 5's that host this website.",
   },
-  {
-    title: "More Items",
-    link: "not available",
-    description: "Additional content for testing scrolling behavior.",
-  },
 ];
 
 const Works: React.FC = () => {
@@ -60,7 +55,7 @@ const Works: React.FC = () => {
       <h2 className="font-serif font-bold text-red-600 mb-4">
         Here is what I have worked on or what I am working on
       </h2>
-      <div className="w-full h-100 overflow-y-auto">
+      <div className="w-full h-full overflow-y-auto">
         <div className="flex space-x-4 p-4 flex-nowrap">
           {workItems.map((item, index) => (
             <WorkItem
