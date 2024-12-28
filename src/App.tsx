@@ -10,7 +10,7 @@ import Resume from './pages/Resume';
 
 function App() {
   return (
-    <div className="min-h-sreen w-full flex flex-col sm:flex-row">
+    <div className="min-h-sreen w-full flex flex-col sm:flex-row pt-16">
       <Header />
       <Routes>
         <Route path="/" element={<Landing />} />
