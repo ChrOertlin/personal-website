@@ -5,7 +5,7 @@ import { GiComputing, GiGameConsole, GiMountainClimbing, GiPhotoCamera } from 'r
 
 function ResumeLeft() {
     return (
-        <div className="min-h-screen flex-1">
+        <div className="min-h-screen flex-1 sm:grid-cols-1">
 
             <div className="flex flex-col gap-5">
 

@@ -1,6 +1,6 @@
 function ResumeRight() {
     return (
-        <div className="min-h-screen flex-[3]">
+        <div className="min-h-screen sm:grid-cols-3">
             <main className='flex max-w-[1000px] flex-col gap-10 p-5 md:mx-10 md:py-14' >
 
                 <div className="space-y-5">
@@ -24,7 +24,7 @@ function ResumeRight() {
                             </div>
                             <p className="text-gray-500">
                                 I am currently working on various side projects to expand my skills in software development and system infrastructure.
-                                The projects range from web developement to hosting kubernetes clusters on Raspberry Pi's.
+                                The projects range from web developement, self hosting websites and deployment orchestration using kubernetes in my Raspberry Pi cluster.
                             </p>
                         </div>
 
